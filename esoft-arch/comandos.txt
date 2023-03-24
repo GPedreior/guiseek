@@ -1,0 +1,14 @@
+npx create-nx-workspace@latest esoft-arch
+
+node -v (há de ser bersão 18 ou superior)
+
+code .\esoft-arch\
+
+npx nx dep-graph
+
+npx nx list  (lista todas as opçoes do nx)
+
+npm i -d @nrwl/express
+
+npm i -d @nrwl/web
+    - vai no generate e digita "web", aqui estamos criando o front
